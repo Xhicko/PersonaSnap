@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=New+Amsterdam&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Heading:   font-family: "New Amsterdam", sans-serif; */
+/* Placeholders:  font-family: "Moderustic", sans-serif; */
+/* Answers: font-family: "Roboto", sans-serif; */
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+
+.Wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #070574;
+}
+
+.Form_Wrapper{
+   width: 1200px;
+   max-width: 100%;
+   height: auto;
+   margin: 6px ;
+   padding: 10px;
+   background-color: #fff;
+   border-radius: 4px;
+}
+
+.Form_Top{
+   padding: 5px 10px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.Image_Wrap{
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   border: 2px solid #070574;
+   padding: 5px;
+   overflow: hidden;
+   margin: 5px;
+}
+
+.Image_Wrap2{
+   width: 40px;
+   height: 40px;
+}
+
+.Image_Wrap img{
+   width: 100%;
+}
+
+.Form_Meta{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.Form_Meta h3{
+   font-family: "New Amsterdam", sans-serif;
+   letter-spacing: 2px;
+   font-size: 25px;
+   color: #070574;
+}
+
+.Form_Meta2 h3{
+   font-size: 17px;
+}
+
+.Form_Meta p{
+   font-family: "Roboto", sans-serif;
+   color: #070574;
+   font-weight: 700;
+}
+
+.Form_Meta2 p{
+   font-weight: 700;
+   font-size: 11px;
+}
+
+form{
+   width: 100%;
+}
+
+.Section_Wrapper{
+   width: 98%;
+   margin: 0 auto;
+   padding: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.Section{
+   width: 98%;
+}
+
+.Form_Data_Wrapper{
+   display: flex;
+   flex-direction: column;
+   margin: 0 0 5px 0;
+   padding: 2px 5px;
+   width: 100%;
+}
+
+.Form_Data_Wrapper label{
+   font-family: "Moderustic", sans-serif;
+   font-weight: 600;
+   color: #070574;
+}
+
+.Form_Data_Wrapper input{
+   padding:8px 10px;
+   border: none;
+   background-color: #07057490;
+   color: #fff;
+   border-radius: 3px;
+   outline: none;
+}
+
+form button{
+   border: none;
+   width: 100%;
+   background-color: #070574;
+   color: #fff;
+   font-family: "Roboto", sans-serif; 
+   font-size: 16px;
+   padding: 8px 10px;
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+.DisplayWrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #054474;
+}
+
+.Display{
+   margin: 10px;
+   display: flex;
+   flex: row;
+   width: 700px;
+   height: 93dvh;
+   max-width: 100%;
+   background-image:linear-gradient(to bottom, #070574ec, #070574eb), url('./Project_Background.jpg') ;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 3px;
+   padding: 0 10px;
+   position: relative;
+}
+
+.DisplaySection{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+}
+
+.DisplaySection_Left{
+   background-color: #fff;
+   height: 350px;
+}
+
+.Form_Data_Image{
+   margin: 40px 0 0 0;
+   width: 280px;
+   height: 100px;
+}
+
+.Form_Data_Image img{
+   width: 100%;
+   border-radius: 0 0 20px 20px;
+   background-color: #070574;
+}
+
+.Display_Name{
+   position: absolute;
+   bottom: -250px;
+   left: 20px;
+}
+
+.Display_Name h1{
+   text-align: center;
+   font-family: "Moderustic", sans-serif;
+   font-size: 24px;
+   color: #fff;
+   text-transform: uppercase;
+}
+
+.DisplaySection_Data{
+   padding: 2px 5px;
+   align-items: center;
+}
+
+.Display_Top{
+   text-align: center;
+   font-family: "Moderustic", sans-serif;
+}
+
+.Display_Top h2{
+   color: #fff;
+   font-size: 18px;
+}
+
+.Display_Meta_Wrapper{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   margin: 10px 0 0 0;
+}
+
+.Display_Meta{
+   width: 100%;
+   height: 43px;
+   background-color: #fff;
+   border-radius: 1.5px;
+   padding: 1px 5px;
+   overflow: hidden;
+   margin: 0 0 10px 0;
+}
+
+.Display_Meta h3{
+   font-family: "Moderustic", sans-serif;
+   color: #070574;
+   font-size: 14px;
+}
+
+.Display_Meta p{
+   font-family: "Roboto", sans-serif;
+   color: #070574;
+   font-size: 12px;
+}
+
+
+.Footer{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 40px;
+   background-color: #fff;
+   border-radius: 0 0 3px 3px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.Footer p{
+   font-family: "Roboto", sans-serif;
+   font-size: 20px;
+   font-weight: 700;
+   color: #070574;
+   letter-spacing: 14px;
+   word-spacing: 5px;
+ 
+}

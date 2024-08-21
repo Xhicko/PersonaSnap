@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>www.PersonaSnap.com</title>
+   <link rel="stylesheet" href="./Design/index.css">
+</head>
+<body>
+
+   <div class="Wrapper">
+      <div class="Form_Wrapper">
+         <div class="Form_Top">
+            <div class="Image_Wrap">
+               <img src="./Design/NSUK_Logo.png" alt="NSUK Logo">
+            </div>
+            <div class="Image_Wrap">
+               <img src="./Design/SCSN_Logo.png" alt="SCSN Logo">
+            </div>
+         </div>
+         <div class="Form_Meta">
+            <h3>Nasarawa State University Keffi</h3>
+            <p>Student Chemical Society Of Nigeria (SCSN)</p>
+            <p>Profile Card Form</p>
+         </div>
+
+         <form id="profileForm">
+           <div class="Section_Wrapper">
+            <div class="Section">
+               <div class="Form_Data_Wrapper">
+                  <label for="nickname">Nickname:</label>
+                  <input type="text" id="nickname" name="nickname" required>
+              </div>
+          
+              <div class="Form_Data_Wrapper">
+                  <label for="hobbies">Hobbies:</label>
+                  <input type="text" id="hobbies" name="hobbies" required>
+              </div>
+          
+              <div class="Form_Data_Wrapper">
+                  <label for="favoriteCourse">Favorite course:</label>
+                  <input type="text" id="favoriteCourse" name="favoriteCourse" required>
+              </div>
+          
+              <div class="Form_Data_Wrapper">
+                  <label for="dob">Date of birth:</label>
+                  <input type="date" id="dob" name="dob" required>
+              </div>
+          
+              <div class="Form_Data_Wrapper">
+                  <label for="stateOfOrigin">State of origin:</label>
+                  <input type="text" id="stateOfOrigin" name="stateOfOrigin" required>
+              </div>
+          
+              <div class="Form_Data_Wrapper">
+                  <label for="worstCourse">Worst course:</label>
+                  <input type="text" id="worstCourse" name="worstCourse" required>
+              </div>
+
+              <div class="Form_Data_Wrapper">
+               <label for="crushInClass">Crush in Class:</label>
+               <input type="text" id="crushInClass" name="crushInClass" required>
+              </div>
+          
+            </div>
+           
+            <div class="Section">
+               <div class="Form_Data_Wrapper">
+                  <label for="challengingLevel">Most Challenging Level:</label>
+                  <input type="text" id="challengingLevel" name="challengingLevel" required>
+              </div>
+          
+              <div class="Form_Data_Wrapper">
+                  <label for="passionChemistry">Passion for Chemistry (1-10):</label>
+                  <input type="number" id="passionChemistry" name="passionChemistry" min="1" max="10" required>
+              </div>
+          
+              <div class="Form_Data_Wrapper">
+                  <label for="relationshipStatus">Relationship Status:</label>
+                  <input type="text" id="relationshipStatus" name="relationshipStatus" required>
+              </div>
+          
+              <div class="Form_Data_Wrapper">
+                  <label for="quote">What’s your favorite quote:</label>
+                  <input type="text" id="quote" name="quote" required>
+              </div>
+          
+              <div class="Form_Data_Wrapper">
+                  <label for="sideHustle">Business/Side Hustle:</label>
+                  <input type="text" id="sideHustle" name="sideHustle" required>
+              </div>
+          
+              <div class="Form_Data_Wrapper">
+                  <label for="happiness">What makes you happy:</label>
+                  <input type="text" id="happiness" name="happiness" required>
+              </div>
+          
+              <div class="Form_Data_Wrapper">
+                  <label for="memoryNSUK">Unforgettable memory in NSUK:</label>
+                  <input type="text" id="memoryNSUK" name="memoryNSUK" required>
+              </div>
+          
+            </div>
+           </div>
+            <div class="Section_Wrapper">
+               <div class="Form_Data_Wrapper">
+                  <label for="photo">Upload Photo:</label>
+                  <input type="file" id="photo" name="photo" accept="image/*" required>
+              </div>
+            </div>
+            <button type="submit">Generate Profile Card</button>
+        </form>
+      </div>
+   </div>
+   
+<script src="./Design/index.js"></script>
+</body>
+</html>
