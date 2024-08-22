@@ -5,6 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>www.PersonaSnap.com</title>
    <link rel="stylesheet" href="./index.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
 <body>
    <div class="DisplayWrapper">
@@ -23,10 +24,10 @@
                      <p>Student Chemical Society Of Nigeria (SCSN)</p>
                   </div>
                   <div class="Form_Data_Image">
-                     <img src="/Design/Test_Imnage.jpg" alt="">
+                     <img id="displayPhoto" src="" alt="displayPhoto">
                   </div>
                   <div class="Display_Name">
-                     <h1>Daniel Stephen Danjuma</h1>
+                     <h1 id="dfn">[dfn]</h1>
                   </div> 
                </div>
                <div class="DisplaySection DisplaySection_Data ">
@@ -38,47 +39,47 @@
                   <div class="Display_Meta_Wrapper">
                      <div class="Display_Meta">
                         <h3>Nickname:</h3>
-                        <p id="#">Danpuuchiro</p>
+                        <p id="dnn">[dnn]</p>
                      </div>
                      <div class="Display_Meta">
                         <h3>Hobbies:</h3>
-                        <p id="#">Learning New stuff</p>
+                        <p id="dh">[dh]</p>
                      </div>
                      <div class="Display_Meta">
                         <h3>Favorite Course:</h3>
-                        <p id="#">CHM306 (Industrial Visit)</p>
+                        <p id="dfc">[dfc]</p>
                      </div>
                      <div class="Display_Meta">
                         <h3>Date Of Birth:</h3>
-                        <p id="#">August 5th</p>
+                        <p id="ddo">[ddo]</p>
                      </div>
                      <div class="Display_Meta">
                         <h3>State of Origin:</h3>
-                        <p id="#">Cross River</p>
+                        <p id="dso">[dso]</p>
                      </div>
                      <div class="Display_Meta">
                         <h3>Crush in Class:</h3>
-                        <p id="#">Deborah, Saratu & Fauziya</p>
+                        <p id="dcc">[dcc]</p>
                      </div>
                      <div class="Display_Meta">
                         <h3>Most Challenging Level:</h3>
-                        <p id="#">400 Level</p>
+                        <p id="dcl">[dcl]</p>
                      </div>
                      <div class="Display_Meta">
-                        <h3>If Not chemistry, What:</h3>
-                        <p id="#">Software Engineering</p>
+                        <h3>If Not Chemistry, What:</h3>
+                        <p id="dnc">[dnc]</p>
                      </div>
                      <div class="Display_Meta">
                         <h3>Relationship Status:</h3>
-                        <p id="#">Certified Ashawo</p>
+                        <p id="drs">[drs]</p> <!-- Corrected here -->
                      </div>
                      <div class="Display_Meta">
                         <h3>Unforgettable Memory in NSUK:</h3>
-                        <p id="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p id="dmn">[dmn]</p>
                      </div>
                      <div class="Display_Meta">
                         <h3>Business or Side Hustle:</h3>
-                        <p id="#">Web Development Tutor & website developer</p>
+                        <p id="dsh">[dsh]</p>
                      </div>
             
                   </div>
@@ -87,7 +88,10 @@
                   <p>CLASS OF 2024</p>
                </div>
          </div>
+
+         <button id="screenshotButton">Take a Screenshot</button>
    </div>
    
+   <script src="/Design/Data.js"></script>
 </body>
 </html>
