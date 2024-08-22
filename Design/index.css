@@ -221,6 +221,19 @@ form button{
    font-size: 18px;
 }
 
+.WaterMark{
+   position: absolute;
+   left: translate(-50%);
+   bottom: 45px;
+   width: 100%;
+   text-align: center;
+}
+
+.WaterMark p{
+   font-family: "Roboto", sans-serif;
+   color: #0000001f;
+}
+
 .Display_Meta_Wrapper{
    display: flex;
    flex-direction: column;
